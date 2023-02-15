@@ -1,8 +1,9 @@
+import ContactMeComponent from "../components/ContactMeComponent/ContactMeComponent";
 
 function Contact() {
     return (
         <div>
-            <h1>Contact</h1>
+            <ContactMeComponent />
         </div>
     );
 }
