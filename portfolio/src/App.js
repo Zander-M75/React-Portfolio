@@ -1,12 +1,34 @@
 
+import { Route, Routes } from 'react-router-dom';
+
+import About from './pages/AboutMe';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
+import Layout from './components/layout/Layout';
+
 
 function App() {
+  // localhost:3000/ => AllMeetupsPage
+  // localhost:3000/new-meetup => NewMeetupPage
+  // localhost:3000/favorites => FavoritesPage
+
   return (
-    <div>
-      <h1>Portfolio</h1>
-    </div>
+
+    <Layout>
+
+
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+
+    </Layout>
   );
 }
 
 export default App;
+
 

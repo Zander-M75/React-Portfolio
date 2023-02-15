@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 
-import classes from './Navbar.module.css';
+import classes from './MainNavigation.module.css';
 
-function Navbar() {
+function MainNavigation() {
 
     return (
 
