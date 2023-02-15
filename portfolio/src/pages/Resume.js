@@ -1,9 +1,9 @@
-
+import ResumeComponent from "../components/ResumeComponent/ResumeComponent";
 
 function Resume() {
     return (
         <div>
-            <h1>Resume</h1>
+            <ResumeComponent />
         </div>
     );
 }

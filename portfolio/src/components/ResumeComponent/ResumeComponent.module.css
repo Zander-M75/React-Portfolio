@@ -1,0 +1,43 @@
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.resume-heading {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.resume-section-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.resume-section-item-heading {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.resume-section-item-subheading {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.resume-section-item-description {
+    margin-bottom: 5px;
+}
