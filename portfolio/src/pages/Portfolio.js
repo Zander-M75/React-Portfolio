@@ -1,8 +1,9 @@
+import PortfolioComponent from "../components/PortfolioComponent/PortfolioComponent";
 
 function Portfolio() {
     return (
         <div>
-            <h1>Portfolio</h1>
+            <PortfolioComponent />
         </div>
     );
 
