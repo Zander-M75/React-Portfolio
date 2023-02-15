@@ -1,7 +1,7 @@
 
 import { Route, Routes } from 'react-router-dom';
 
-import About from './pages/AboutMe';
+import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
@@ -19,7 +19,7 @@ function App() {
 
 
       <Routes>
-        <Route path="/" element={<About />} />
+        <Route path="/" element={<AboutMe />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />

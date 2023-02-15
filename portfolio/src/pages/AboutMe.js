@@ -1,9 +1,11 @@
-import { useState, useEffect } from "react";
+// import about me component
+import AboutMeComponent from '../components/AboutMeComponent/AboutMeComponent';
+
 
 function About() {
     return (
         <div>
-            <h1>About Me</h1>
+            <AboutMeComponent />
         </div>
     )
 }
