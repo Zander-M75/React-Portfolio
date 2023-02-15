@@ -1,12 +1,13 @@
 
 import React from 'react';
 import styles from './AboutMeComponent.module.css';
+import headshot from '../../images/headshot.jpeg';
 
 function AboutMeComponent() {
     return (
         <div className={styles.container}>
             <div className={styles.card}>
-                <img src="" alt="My Photo" className={styles.photo} />
+                <img src={headshot} alt="headshot" className={styles.photo} />
                 <div className={styles.content}>
                     <h1>About Me</h1>
                     <p>
