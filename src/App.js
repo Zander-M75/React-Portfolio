@@ -20,10 +20,10 @@ function App() {
 
 
         <Routes>
-          <Route path="/" element={<AboutMe />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/React-Portfolio/" element={<AboutMe />} />
+          <Route path="/React-Portfolio/portfolio" element={<Portfolio />} />
+          <Route path="/React-Portfolio/contact" element={<Contact />} />
+          <Route path="/React-Portfolio/resume" element={<Resume />} />
         </Routes>
 
       </Layout>
