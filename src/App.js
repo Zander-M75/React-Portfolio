@@ -20,7 +20,7 @@ function App() {
 
 
         <Routes>
-          <Route path="/React-Portfolio/" element={<AboutMe />} />
+          <Route path="/React-Portfolio" element={<AboutMe />} />
           <Route path="/React-Portfolio/portfolio" element={<Portfolio />} />
           <Route path="/React-Portfolio/contact" element={<Contact />} />
           <Route path="/React-Portfolio/resume" element={<Resume />} />

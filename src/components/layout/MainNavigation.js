@@ -12,19 +12,19 @@ function MainNavigation() {
                 <ul>
 
                     <li>
-                        <Link to='/'>About Me</Link>
+                        <Link to='/React-Portfolio'>About Me</Link>
                     </li>
 
                     <li>
-                        <Link to='/portfolio'>Portfolio</Link>
+                        <Link to='/React-Portfolio/portfolio'>Portfolio</Link>
                     </li>
 
                     <li>
-                        <Link to='/contact'>Contact Me</Link>
+                        <Link to='/React-Portfolio/contact'>Contact Me</Link>
                     </li>
 
                     <li>
-                        <Link to='/resume'>Resume</Link>
+                        <Link to='/React-Portfolio/resume'>Resume</Link>
                     </li>
 
                 </ul>
