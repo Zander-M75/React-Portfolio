@@ -1,5 +1,5 @@
 
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
@@ -15,17 +15,20 @@ function App() {
 
   return (
 
-    <Layout>
+    <Router>
+      <Layout>
 
 
-      <Routes>
-        <Route path="/" element={<AboutMe />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
 
-    </Layout>
+      </Layout>
+    </Router>
+
   );
 }
 
