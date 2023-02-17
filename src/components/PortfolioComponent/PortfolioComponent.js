@@ -5,6 +5,7 @@ import React from "react";
 import "./PortfolioComponent.module.css";
 import bootycamp from "../../images/bootycamp.jpeg";
 
+
 // project images not rendering, need to fix, cant figure out why.  Grader, I hope you are having a nice day! Please advise, thanks!
 
 const projects = [
@@ -26,7 +27,7 @@ const projects = [
         id: 3,
         name: "Burning Money",
         description: "a budgeting app built using MERN stack",
-        image: "",
+        image: "../../images/burning.png",
         link: "not yet deployed, check back soon!"
     },
     {
